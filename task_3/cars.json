@@ -1,37 +1,37 @@
 [
-    {
-      "id": "1",
-      "name": "Focus(Mk4)",
-      "manufacturer": "Ford",
-      "is_petrol": "True",
-      "tank_volume": "52"
-    },
-    {
-      "id": "2",
-      "name": "Golf(Mk8)",
-      "manufacturer": "Volkswagen",
-      "is_petrol": "True",
-      "tank_volume": "50"
-    },
-    {
-      "id": "3",
-      "name": "Civic(XI)",
-      "manufacturer": "Honda",
-      "is_petrol": "True",
-      "tank_volume": "47"
-    },
-    {
-      "id": "4",
-      "name": "Leaf(e+)",
-      "manufacturer": "Nissan",
-      "is_petrol": "False",
-      "tank_volume": "-"
-    },
-    {
-      "id": "5",
-      "name": "Bolt EV",
-      "manufacturer": "Chevrolet",
-      "is_petrol": "False",
-      "tank_volume": "-"
-    }
-  ]
+  {
+    "id": "2",
+    "name": "Golf(Mk8)",
+    "manufacturer": "Volkswagen",
+    "is_petrol": "True",
+    "tank_volume": "50"
+  },
+  {
+    "id": "3",
+    "name": "Civic(XI)",
+    "manufacturer": "Honda",
+    "is_petrol": "True",
+    "tank_volume": "47"
+  },
+  {
+    "id": "4",
+    "name": "Leaf(e+)",
+    "manufacturer": "Nissan",
+    "is_petrol": "False",
+    "tank_volume": "-"
+  },
+  {
+    "id": "5",
+    "name": "Bolt EV",
+    "manufacturer": "Chevrolet",
+    "is_petrol": "False",
+    "tank_volume": "-"
+  },
+  {
+    "id": "6",
+    "name": "1",
+    "manufacturer": "1",
+    "is_petrol": "1",
+    "tank_volume": "1"
+  }
+]
