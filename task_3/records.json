@@ -1,5 +1,12 @@
 [
   {
+    "id": "1",
+    "name": "Toyota Camry",
+    "manufacturer": "Toyota",
+    "is_petrol": "True",
+    "tank_volume": "60"
+  },
+  {
     "id": "2",
     "name": "Golf(Mk8)",
     "manufacturer": "Volkswagen",
@@ -26,12 +33,5 @@
     "manufacturer": "Chevrolet",
     "is_petrol": "False",
     "tank_volume": "-"
-  },
-  {
-    "id": "6",
-    "name": "1",
-    "manufacturer": "1",
-    "is_petrol": "1",
-    "tank_volume": "1"
   }
 ]

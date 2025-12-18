@@ -3,9 +3,9 @@ import json
 import os
 print("start code …")
 choice = 0
-filename = 'cars.json'
+filename = 'records.json'
 operations = 0
-with open("C:/Users/KovalSta_87/Desktop/ipo-lr-7/task_3/cars.json", 'r+', encoding="utf-8") as file:
+with open("C:/Users/KovalSta_87/Desktop/ipo-lr-7/task_3/records.json", 'r+', encoding="utf-8") as file:
     content = json.loads(file.read())
 
 while choice != 5 :
@@ -65,7 +65,7 @@ while choice != 5 :
         }
         content.append(new_record)
 
-        with open('cars.json', 'w', encoding='utf-8') as file:
+        with open('records.json', 'w', encoding='utf-8') as file:
             json.dump(content, file, ensure_ascii=False, indent=2)
         
         print("Запись успешно добавлена")
@@ -73,7 +73,7 @@ while choice != 5 :
         print()
 
     elif choice == 4:
-        delete = input("введите id записи которыю вы хотите удалить:")
+        delete = input("Введите id записи которыю вы хотите удалить:")
         found = False
         for information in content:
             if information['id'] == delete:
@@ -82,7 +82,7 @@ while choice != 5 :
                 for paragraph in information:
                     print(f"{paragraph} : {information[paragraph]} ")
                 del content[int(delete) - 1]
-                with open('cars.json', 'w', encoding='utf-8') as file:
+                with open('records.json', 'w', encoding='utf-8') as file:
                     json.dump(content, file, ensure_ascii=False, indent=2)
                 print("запись успешно удалена")
                 break
